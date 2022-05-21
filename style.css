@@ -109,3 +109,13 @@
     gap: 10px;
   }
 }
+
+/*     FORM-WYSIWYG TEXT EDITOR    */
+.form-wysiwyg {
+  min-height: 150px;
+  height: 100%;
+}
+
+.form-wysiwyg__label {}
+
+.form-wysiwyg__editor {}
