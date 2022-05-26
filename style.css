@@ -247,7 +247,6 @@
 .header__dropdown{
   display: flex;
   justify-content: center;
-  padding: 5px;
 }
 
 .dropdown:hover{
@@ -290,22 +289,17 @@
 
 .dropdown__content .nav-menu{
   position: absolute;
-  top: 10px;
-  left: -38px;
+  display: none;
+  top: 30px;
+  left: -32px;
   pointer-events: none;
-  visibility: hidden;
-  opacity: 0;
-  transition: 0.35s ease-out;
+
 }
 
 .dropdown:hover .dropdown__content .nav-menu{
   display: flex;
-  position: absolute;
   flex-direction: column;
   pointer-events: auto;
-  visibility: visible;
-  transform: translateY(20px);
-  opacity: 1;
 }
 
 .dropdown__button{
